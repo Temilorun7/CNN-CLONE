@@ -1,0 +1,21 @@
+@media (max-width: 800px){
+	.sidebar{
+		display: none;
+	}
+
+	.main {
+		width: 80%;
+	}
+}
+
+/*this code says at a minimum of 30em view port and upwards, apply these styles*/
+@media (min-width: 30em) and (orientation: landscape){
+	#container {
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1200px){
+	
+}
